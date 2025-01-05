@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Listing</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4eaea;
+           
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding:100px ;
+            text-align: center;
+            background-image: url('first.jpg');
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+        .course {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            overflow: hidden;
+            display: flex;
+        }
+        .course img {
+            width: 200px;
+            height: auto;
+        }
+        .course-details {
+            padding: 20px;
+            flex: 1;
+        }
+        .course-title {
+            font-size: 1.5em;
+            margin: 0 0 10px;
+        }
+        .course-description {
+            font-size: 1em;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .course-price {
+            font-size: 1.2em;
+            color: #28a745;
+            font-weight: bold;
+        }
+        .course-action {
+            margin-top: 10px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        h1 {
+            font-size: 20000;
+            color: rgb(251, 255, 255);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cost And Management Accounts</h1> 
+        <p>Only website where you can practice Mcq for free</p>
+    </header>
+    <div class="container">
+        <!-- Course 1 -->
+        <div class="course">
+            <img src="foundation.png" alt="Course 1">
+            <div class="course-details">
+                <h2 class="course-title">CMA Foundation</h2>
+                <p class="course-description">Cma Foundation</p>
+                <p class="course-price">₹0</p>
+                <div class="course-action">
+                    <a href="demo.html"class="btn">Try Demo</a>
+                </div>
+            </div>
+        </div>
+        <!-- Course 2 -->
+        <div class="course">
+            <img src="inter.webp" alt="Course 2">
+            <div class="course-details">
+                <h2 class="course-title">CMA Intermediate</h2>
+                <p class="course-description">Cma Inter</p>
+                <p class="course-price">₹0</p>
+                <div class="course-action">
+                    <a href="demo inter.html" class="btn">Try Demo</a>
+                </div>
+            </div>
+        </div>
+        <!-- Course 3 -->
+        <div class="course">
+            <img src="https://via.placeholder.com/200" alt="Course 3">
+            <div class="course-details">
+                <h2 class="course-title">CMA Final</h2>
+                <p class="course-description">finals</p>
+                <p class="course-price">₹2999</p>
+                <div class="course-action">
+                    <a href="#" class="btn">Try Demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
